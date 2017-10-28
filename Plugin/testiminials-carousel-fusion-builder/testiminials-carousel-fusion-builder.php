@@ -15,12 +15,12 @@
  * @wordpress-plugin
  * Plugin Name:       Testimonials Carousel for Fusion Builder
  * Plugin URI:        dimitar.online/avada-testimonials
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
+ * Description:       Testimonials Carousel Addon for Fusion Builder is a rotating carousel slider for testimonials. It is created to work with WordPress and Fusion Builder only. The slider itself is powered by FlexSlider already initialised by Fusion Builder.
  * Version:           1.0.0
  * Author:            Dimitar Radev
  * Author URI:        dimitar.online
- * License:           GPL-2.0+
- * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
+ * License:           GPL-3.0+
+ * License URI:       http://www.gnu.org/licenses/gpl-3.0.txt
  * Text Domain:       testiminials-carousel-fusion-builder
  * Domain Path:       /languages
  */
