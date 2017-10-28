@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Documentation – Testimonials Carousel for Fusion Builder</title>
+		<link rel="stylesheet" id="avada-stylesheet-css" href="assets/css/style.css" type="text/css" media="all">
+	</head>
+	<body>
+		<div id="wrapper">
+			<header class="header-wrapper">
+				<div class="logo">
+					<a href="http://biosyntheticdesigns.com/testimonials-carousel/">
+						<img src="assets/images/logo.jpg" width="80" height="52" alt="Testimonials Carousel for Fusion Builder">
+					</a>
+				</div>
+				<h1>Testimonials Carousel for Fusion Builder Documentation</h1>
+				<div class="clearfix"></div>
+			</header>
+			<div id="main" class="clearfix ">
+				<div id="content">
+					<div class="title">
+						<h1>General</h1>
+					</div>
+					<p style="text-align: left;">Testimonials Carousel Addon for Fusion Builder is a rotating carousel slider for testimonials. It is created to work with WordPress and Fusion Builder only. The slider itself is powered by FlexSlider already initialised by Fusion Builder.</p>
+					<p style="text-align: left;">The information below will guide you through the requirements, the installation and the usage of this addon.</p>
+					<p style="text-align: left;">If you need additional information, feature request or suggestion please visit our forum <a href="http://biosyntheticdesigns.com/testimonials-carousel/forums">http://biosyntheticdesigns.com/testimonials-carousel/forums</a></p>
+
+					<div id="requirements"></div>
+					<div class="title">
+						<h1>Requirements</h1>
+					</div>
+					<p>To work properly the Testimonials Carousel for Fusion Builder needs&nbsp;a website created with WordPress 4.6 or above and Fusion Builder 1.0 or above.</p>
+					<p>Server requirements:</p>
+					<ul>
+						<li>PHP 5.6 or above</li>
+						<li>MySQL 5.6 or above</li>
+					</ul>
+
+					<div id="about-wordpress"></div>
+					<div class="title">
+						<h1>About WordPress&nbsp;&amp; Documentation</h1>
+					</div>
+					<p style="text-align: left;">This Addon is created for WordPress, which means that you need to have stable version of the CMS installed on your server to get it working.</p>
+					<p style="text-align: left;">If you are not sure what WordPress is or you need help with the installation for instance, we gathered some links that you may find helpful:</p>
+					<ul>
+						<li style="text-align: left;">What is WordPress? –&nbsp;<a href="https://wordpress.org/about/">https://wordpress.org/about/</a></li>
+						<li style="text-align: left;">WordPress Documentation –&nbsp;<a href="https://codex.wordpress.org/Main_Page">https://codex.wordpress.org/Main_Page</a></li>
+						<li style="text-align: left;">WordPress Forums –&nbsp;<a href="https://wordpress.org/support/">https://wordpress.org/support/</a></li>
+						<li style="text-align: left;">Install&nbsp;WordPress –&nbsp;<a href="https://codex.wordpress.org/Installing_WordPress">https://codex.wordpress.org/Installing_WordPress</a></li>
+						<li style="text-align: left;">Getting Started –&nbsp;<a href="https://codex.wordpress.org/Getting_Started_with_WordPress">https://codex.wordpress.org/Getting_Started_with_WordPress</a></li>
+					</ul>
+
+					<div id="about-fb"></div>
+					<div class="title">
+						<h1>About Fusion Builder&nbsp;&amp; Documentation</h1>
+					</div>
+					<p style="text-align: left;">Testimonials Carousel is addon for Fusion Builder which means that it won’t work if you don’t have it installed on your website. You may know Fusion Builder from Theme Fusion’s most popular product which is Avada WordPress Theme.</p>
+					<p style="text-align: left;">For additional information please check the links below.</p>
+					<ul>
+						<li style="text-align: left;">What is Fusion Builder? –&nbsp;<a href="https://theme-fusion.com/">https://theme-fusion.com/</a></li>
+						<li style="text-align: left;">Fusion Builder Support –&nbsp;<a href="https://theme-fusion.com/support/">https://theme-fusion.com/support/</a></li>
+					</ul>
+
+					<div id="about-fs"></div>
+					<div class="title">
+						<h1>About FlexSlider&nbsp;&amp; Documentation</h1>
+					</div>
+					<p style="text-align: left;">Flex Slider is responsive slider script used to create everything from very simple&nbsp;sliders to sliders with custom coded behaviours. This includes product showcases, sliding photo galleries, sliders with thumbnail navigation, video and dynamic sliders.</p>
+					<p style="text-align: left;">For additional information please check the links below.</p>
+					<ul>
+						<li style="text-align: left;">Flex Slider Documentation –&nbsp;<a href="https://woocommerce.com/flexslider/">https://woocommerce.com/flexslider/</a></li>
+						<li style="text-align: left;">Flex Slider Demo Page –&nbsp;<a href="http://flexslider.woothemes.com/">http://flexslider.woothemes.com/</a></li>
+					</ul>
+
+					<div id="files-folders"></div>
+					<div class="title">
+						<h1>Files and Folders Structure</h1>
+					</div>
+					<p><strong>Folders Structure:</strong></p>
+					<ul>
+						<li>testiminials-carousel-fusion-builder &nbsp;– &nbsp;Main folder containing the plugin main php file and css and js folders
+							<ul>
+								<li>css &nbsp;– &nbsp;This folder contains the main CSS file</li>
+								<li>js &nbsp;– &nbsp;This folder contains the main jQuery file and preview folder
+									<ul>
+										<li>preview &nbsp; – &nbsp;This folder contains a php file used for generating previews in Fusion Builder</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<p><strong>PHP Files: </strong>&nbsp;Two PHP files are in the base of this addon.<strong>&nbsp;</strong>The main PHP file (inside /testiminials-carousel-fusion-builder folder) contains all the classes and functions for this plugin and the testimonials-addon-preview.php file (/js/preview folder) which is used by Fusion Builder for generating previews inside the UI.</p>
+					<p><strong>CSS Files: </strong>This plugin uses a single CSS file located inside <strong>/css</strong> folder.&nbsp;It contains all of the specific stylings for the page. The file is separated into sections using:</p>
+					<p>/** General Styles **/</p>
+					<p>css styles</p>
+					<p>/** Box Layout Styles **/</p>
+					<p>css styles</p>
+					<p>etc.</p>
+					<p><strong>JavaScript Files:</strong> Testimonials&nbsp;Carousel for Fusion Builder uses single Javascript file (/js folder) which sets up the responsive variables and initialises FlexSlider.</p>
+
+					<div id="installation"></div>
+					<div class="title">
+						<h1>Installation Instructions</h1>
+					</div>
+					<p>To successfully install Testimonials Carousel plugin please follow the instruction bellow:</p>
+					<p>Log into your CodeCanyon account and click on your username in the top right corner, then select the <strong>“Downloads”</strong> link.</p>
+					<p><img src="assets/images/codecanyondownloads.png" alt="codecanyondownloads" width="482" height="181"></p>
+					<p>On the&nbsp;<strong>Downloads page</strong> find Testimonials Carousel for Fusion Builder and click on the green <strong>“Download”</strong> button. From the dropdown you can select <strong>“All files &amp; documentation”</strong> or <strong>“Installable WordPress file only”</strong></p>
+					<p><img src="assets/images/ccdlbutton.png" alt="ccdlbutton" width="389" height="180"><strong></p>
+					<p>All files &amp; documentation</strong> will download the full package of the plugin including the documentation and license information. If you choose this step to install the plugin you have to unzip the archive in order to have the installation file ready for the next steps.</p>
+					<p><strong>Installable WordPress file only</strong> will download only the installation archive which is ready for the next steps.</p>
+					<p>From this point on there two options to Upload the plugin:</p>
+					<p><strong>Automatic</strong>, through WordPress admin. &nbsp;Login to wp-admin, select <strong>Plugins &gt; Add New</strong>. On the Add Plugins page in the top left corner click <strong>“Upload Plugin” </strong>then<strong>&nbsp;“Choose File” </strong>and select<strong>&nbsp;testiminials-carousel-fusion-builder.zip</strong></p>
+					<p><strong>Manually, through FTP.</strong>&nbsp;Unzip the&nbsp;<strong>testiminials-carousel-fusion-builder.zip</strong>&nbsp;archive. Connect&nbsp;to your server through FTP client and put the <strong>testiminials-carousel-fusion-builder</strong> folder into the plugins folder <strong>/wp-content/plugins/</strong>.</p>
+					<p>The last step is to <strong>activate</strong> the plugin from the Plugins menu.</p>
+
+					<div id="usage"></div>
+					<div class="title">
+						<h1>Usage&nbsp;Instructions</h1>
+					</div>
+					<p>After successful installation we ready to add our first Testimonials Carousel, however if the Fusion Builder is not activated to this page/post we can do that from the <strong>“Use Fusion Builder”</strong> just under the title input…</p>
+					<p><img src="assets/images/activatefusionbuilder.png" alt="activatefusionbuilder" width="655" height="266"></p>
+					<p>…when active add <strong>Container</strong> or <strong>Pre-Build Page</strong> depending on your goals</p>
+					<p><img src="assets/images/containerorprebuild.png" alt="containerorprebuild" width="517" height="150"></p>
+					<h3>Add&nbsp;Testimonials Carousel</h3>
+					<p>First click on <strong>“+Element”</strong>, in the popup menu select <strong>“Testimonials Carousel”</strong>.</p>
+					<p><img src="assets/images/tcelement.png" alt="tcelement" width="600" height="193"></p>
+					<p>On the next popup we have the element settings. On the left side we have the testimonials and the controls to add, remove edit or clone and on the right side are the settings which will change the appearance &nbsp;of the carousel.</p>
+					<p>The left side called <strong>Add / Edit Items</strong> is very easy to control. Using the Fusion Builder UI you can&nbsp;add(1), edit(2), clone(3) or remove(4) any of the testimonials.</p>
+					<p><img src="assets/images/addedit.png" alt="addedit" width="533" height="372"></p>
+					<p>When you add new or edit, each testimonial has only tree fields Image, Title and Content. Don’t forget to click <strong>SAVE&nbsp;</strong>after changes!</p>
+					<p>The right side or Settings is a bit more complicated, it will help you to set up the add-on the way you want it.</p>
+					<p>Starting from the top you can set up:</p>
+					<p><strong>Border Color</strong>&nbsp;– Set the testimonial <strong>border</strong> color. This field is RGBA meaning that you can control the opacity of the color.</p>
+					<p><strong>Background Color</strong> –&nbsp;Set the testimonial <strong>background</strong> color. This field is RGBA meaning that you can control the opacity of the color.</p>
+					<p><strong>Text Color</strong> – Set the&nbsp;testimonial <strong>Title and Content</strong> colors.</p>
+					<p><strong>Title Font Size</strong> – Set the&nbsp;testimonial <strong>Title</strong> font size. Please include the unit (px or em).</p>
+					<p><strong>Content Font Size</strong> – Set the&nbsp;testimonial <strong>Title font size. Please include the unit (px or em).</strong></p>
+					<p><strong>Select Style</strong> – Set the layout in which the testimonials are displayed.&nbsp;There are 3 layouts to choose from: <em><strong>Box, Align Left and Align Right</strong>.<img class="img-full" src="assets/images/layouts.png" alt="layouts" width="1024" height="394"><br></em></p>
+					<p><strong>Rounded Corners&nbsp;</strong>– Set the style in which the box corners are displayed. <em><strong>On</strong> </em>– Display rounded corners. <strong><em>Off</em> </strong>– Display regular corners.</p>
+					<p><strong>Show Title</strong> – Show or Hide the <strong>Title.</strong></p>
+					<p><strong>Show Image</strong>&nbsp;– Show or Hide&nbsp;the&nbsp;<strong>Image.</strong></p>
+					<p><strong>Show Pagination </strong>–&nbsp; Show or Hide the carousel <strong>pagination</strong>.</p>
+					<p><strong>Speed</strong> – Set the time each in testimonials page is displayed on screen. <em><strong>Slow&nbsp;</strong></em>–&nbsp;15 seconds, <em><strong>Medium</strong> </em>– 7 seconds, <em><strong>Fast</strong> </em>– 3 seconds.</p>
+					
+					<div id="demos"></div>
+					<div class="title">
+						<h1>Designs and Demos</h1>
+					</div>
+					<p>If you need some design inspiration please check our demos page on this link&nbsp;<a href="http://biosyntheticdesigns.com/testimonials-carousel/demos/">http://biosyntheticdesigns.com/testimonials-carousel/demos/</a></p>
+					<p>There you will find different setups and the settings they use so you can reproduce them quickly.</p>
+
+					<div id="additional-help"></div>
+					<div class="title">
+						<h1>Additional Help</h1>
+					</div>
+					<p>For any additional questions you might have please check our forums on the link below</p>
+					<p><a href="http://biosyntheticdesigns.com/testimonials-carousel/forums">http://biosyntheticdesigns.com/testimonials-carousel/forums</a></p>
+				</div>
+				<div id="sidebar">
+					<ul class="menu">
+						<li><a href="#">General</a></li>
+						<li><a href="#requirements">Requirements</a></li>
+						<li><a href="#about-wordpress">About WordPress &amp; Documentation</a></li>
+						<li><a href="#about-fb">About Fusion Builder &amp; Documentation</a></li>
+						<li><a href="#about-fs">About FlexSlider &amp; Documentation</a></li>
+						<li><a href="#files-folders">Files and Folders Structure</a></li>
+						<li><a href="#installation">Installation Instructions</a></li>
+						<li><a href="#usage">Usage Instructions</a></li>
+						<li><a href="#demos">Designs and Demos</a></li>
+						<li><a href="#additional-help">Additional Help</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+			<div class="footer">
+				<footer>
+					<div class="copyright-content">
+						<div class="copyright-notice">
+							<div>© Copyright 2017&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="http://biosyntheticdesigns.com/" target="_blank">Bio Synthetic Designs Ltd.</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;All Rights Reserved&nbsp;&nbsp;&nbsp;</div>
+						</div>
+					</div>
+				</footer>
+			</div>
+		</div>
+	</body>
+</html>

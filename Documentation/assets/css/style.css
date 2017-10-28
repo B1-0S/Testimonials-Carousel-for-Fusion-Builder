@@ -1,0 +1,16 @@
+html, body, #wrapper{margin:0;padding:0;color:#636363;}
+h1, h2, h3, h4, h5, h6{color:#3c3c3c;}
+a{color:#4cbbff;text-decoration: none;}
+#main{width:1200px;margin:0 auto;position: relative;}
+#content{width: 910px;float: right;padding: 0 20px;}
+#sidebar{width:250px;float:left;}
+.clearfix{clear:both;}
+.footer{width:1200px; margin: 20px auto 0 auto;}
+.logo{float: left;margin: 0px 10px;}
+.header-wrapper h1{text-align: center;margin: 10px 0;}
+.header-wrapper{ border-bottom:#dddddd 1px solid;margin-bottom:30px;}
+.menu{list-style: none;}
+.menu a{font-size: 20px;}
+.menu li{margin: 10px 0 10px 0;}
+.img-full{width: 100%;height: auto;}
+.copyright-notice{text-align: center;}
