@@ -156,6 +156,7 @@ class Testiminials_Carousel_Fusion_Builder {
 
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_styles' );
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_scripts' );
+		$this->loader->add_action( 'fusion_builder_before_init', $plugin_admin, 'map_testimonials_carousel_addon');
 
 	}
 
@@ -172,7 +173,7 @@ class Testiminials_Carousel_Fusion_Builder {
 
 		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_styles' );
 		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_scripts' );
-
+		$this->loader->add_action( 'init', $plugin_public, 'testimonialCarousel_register_shortcodes' );
 	}
 
 	/**

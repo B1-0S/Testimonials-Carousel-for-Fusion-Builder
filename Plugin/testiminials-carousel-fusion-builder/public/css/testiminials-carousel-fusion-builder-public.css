@@ -2,3 +2,33 @@
  * All of the CSS for your public-facing functionality should be
  * included in this file.
  */
+ /** General Styles **/
+.b10s-testimonials {position: relative;margin:0 0 60px 0;padding:30px 0 0 0;}
+.b10s-testimonials .flex-direction-nav{display:none;}
+
+/** Box Layout Styles **/
+.b10sBox  li{padding:50px 0 0 0;}
+.b10sBox ul{padding:0;}
+.b10sBox  p{font-size:13px;margin-top: 10px;}
+.b10sBox  .flex-control-nav {bottom: 0;padding-left: 10px;height: 30px;}
+.b10sBox img{width:100px;height:100px;-webkit-border-radius: 50px;-moz-border-radius: 50px;border-radius: 50px;overflow:hidden;margin:-50px auto 20px auto;display: block;position: relative;z-index:999;}
+.b10sBox .b10sBlockquote{position: relative;float: left;margin: 0 10px 0 10px;padding: 0px 25px 22px 25px;border: 1px solid ;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;text-align: center;font-style:italic;}
+.b10sBox .b10sBlockquote footer{font-weight: bold;margin-top: 10px;font-size: 15px;font-style:normal;}
+
+/** Image Left Layout Styles **/
+.b10sPicLeft  li{padding:50px 0 0 0;}
+.b10sPicLeft ul{padding:0;}
+.b10sPicLeft  p{font-size: 13px;margin: 10px 0;float: none;text-align: justify;}
+.b10sPicLeft  .flex-control-nav {bottom: 0;padding-left: 10px;height: 30px;}
+.b10sPicLeft img{width: 100px;height: 100px;overflow: hidden;margin: 10px 10px 0px 0px;position: relative;z-index: 999;float: left;display:inline-block;}
+.b10sPicLeft .b10sBlockquote{position: relative;float: left;margin: 0 10px 0 10px;padding: 0px 20px 20px 20px;border: 1px solid;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;text-align: left;font-style: italic;}
+.b10sPicLeft .b10sBlockquote footer{font-weight: bold;margin-top: 10px;font-size: 15px;font-style:normal;text-align:right;}
+
+/** Image Right Layout Styles **/
+.b10sPicRight  li{padding:50px 0 0 0;}
+.b10sPicRight ul{padding:0;}
+.b10sPicRight  p{font-size: 13px;margin: 10px 0;float: none;text-align: justify;}
+.b10sPicRight  .flex-control-nav {bottom: 0;padding-left: 10px;height: 30px;}
+.b10sPicRight img{width: 100px;height: 100px;overflow: hidden;margin: 10px 0px 0px 10px;position: relative;z-index: 999;float: right;display: inline-block;}
+.b10sPicRight .b10sBlockquote{position: relative;float: left;margin: 0 10px 0 10px;padding: 0px 20px 20px 20px;border: 1px solid;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;text-align: left;font-style: italic;}
+.b10sPicRight .b10sBlockquote footer{font-weight: bold;margin-top: 10px;font-size: 15px;font-style:normal;}
